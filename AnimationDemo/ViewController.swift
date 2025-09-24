@@ -104,4 +104,24 @@ class ViewController: UIViewController {
         // Start the first animation
         animator.startAnimation()
     }
+    @IBAction func animateView(_ sender : UIButton){
+////        view_box_width.constant += 100
+////        view_box_height.constant += 100
+//        UIView.animateKeyframes(withDuration: 4, delay: 0, animations: {
+//
+//            UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 0.25, animations: {
+//                self.view_box.backgroundColor = .magenta
+//            })
+//
+//            UIView.addKeyframe(withRelativeStartTime: 0.25, relativeDuration: 0.25, animations: {
+//                self.view_box.alpha = 0.5
+//            })
+//            UIView.addKeyframe(withRelativeStartTime: 0.50, relativeDuration: 0.25, animations: {
+//                self.view_box.center.x = self.view.bounds.width - 100
+//            })
+//            UIView.addKeyframe(withRelativeStartTime: 0.75, relativeDuration: 0.25, animations: {
+//                self.view_box.center.x = self.view.bounds.width - 200
+//            })
+//        })
+//    }
 }
